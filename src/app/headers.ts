@@ -6,7 +6,7 @@ export const headers = [
     name: 'About Us'
   },
   {
-    name: 'Pricing'
+    name: 'Testimonials'
   }
 ];
 
