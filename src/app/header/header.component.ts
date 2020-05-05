@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { Headers } from '../headers';
+import { headers } from '../headers';
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
