@@ -8,6 +8,7 @@ import { TopBarComponent } from './top-bar/top-bar.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import { HeaderComponent } from './header/header.component';
 import { LandingComponent } from './landing/landing.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   imports: [
@@ -22,7 +23,8 @@ import { LandingComponent } from './landing/landing.component';
     TopBarComponent,
     ProductListComponent,
     HeaderComponent,
-    LandingComponent
+    LandingComponent,
+    FooterComponent
   ],
   bootstrap: [ AppComponent ]
 })
