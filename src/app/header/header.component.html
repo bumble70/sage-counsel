@@ -1,6 +1,20 @@
 <a [routerLink]="['/product-list.component.html']">
 </a>
 
+
+<div *ngFor="let header of headers">
+    <h3>
+       <a [title]="header.name">
+      {{ header.name }}
+      </a>
+  </h3>
+   <p *ngIf="product.description">
+    Description: {{ product.description }}
+  </p>
+
+</div>
+
+
 <a class="button fancy-button"><i class="material-icons"></i>Services</a>
 <a class="button fancy-button"><i class="material-icons"></i>About Us</a>
 <a class="button fancy-button"><i class="material-icons"></i>Pricing</a>

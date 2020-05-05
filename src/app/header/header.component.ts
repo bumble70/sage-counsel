@@ -7,11 +7,13 @@ import { headers } from '../headers';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-   headers = Headers;
+   headers = headers;
   
   ngOnInit() {
   }
 }
+
+
 
 
 
